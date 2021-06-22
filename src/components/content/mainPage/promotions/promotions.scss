@@ -1,0 +1,28 @@
+.promotions {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+  
+.promotions-header {
+    margin: 0 0 30px 9%;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .promotions-header {
+        margin: 0 0 30px 10%;
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 688px) {
+
+    .promotions {
+        padding-top: 75px;
+    }
+
+}

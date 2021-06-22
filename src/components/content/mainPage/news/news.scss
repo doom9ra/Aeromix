@@ -1,0 +1,147 @@
+.news {
+    position: relative;
+    padding-top: 10px;
+}
+
+.n-carousel-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10% 0 9%;
+    font-weight: 600;
+}
+
+.n-carousel-header h1 {
+    align-self: center;
+    font-size: 42px;
+}
+
+.n-carousel-wrapper {
+    margin: 30px 5%;
+}
+
+// стилизация стрелок
+.n-pointer {
+    height: 30px;
+    width: 25px;
+    align-self: center;
+    font-size: 25px;
+    line-height: 20px;
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    color: #888888;
+}
+
+.n-pointer:disabled {
+    opacity: 0;
+}
+
+// стилизация меню слайдера
+.n-carousel .rec-dot {
+    background-color: #c0c0c0 !important;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25) !important;
+    width: 38px !important;
+    height: 8px !important;
+    margin: 0 9px !important;
+
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.n-carousel .rec-dot_active {
+    background-color: #fff !important;
+}
+
+.news-red-wave {
+    position: absolute;
+    top: -11.5%;
+    width: 99.1vw;
+    max-width: 1920px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1920px) { 
+
+    .news-red-wave {
+        top: calc(105% - 28vw); 
+    }
+
+}
+
+@media screen and (max-width: 1044px) { 
+
+    .n-carousel-wrapper {
+        margin: 2% 12% 0;
+    } 
+
+}
+
+
+@media screen and (max-width: 784px) {
+
+    .n-carousel-wrapper {
+        margin: 2% 10% 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) { 
+
+    .n-carousel-wrapper {
+        margin: 2% 4% 0;
+    }
+
+    .n-pointer {
+        display: none;
+    }
+
+    .news-red-wave {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 688px) { 
+
+    .news {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) { 
+
+    .n-carousel-header h1 {
+        font-size: 35px;
+    }
+
+    .n-carousel-wrapper {
+        margin: 20px 5%;
+    }
+
+}
+
+@media screen and (max-width: 440px) { 
+
+    .n-carousel .rec-dot {
+        width: 30px !important;
+        margin: 0 7px !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) { 
+
+    .n-carousel-wrapper {
+        margin: 30px 1%;
+    }
+
+    .n-carousel-header h1 {
+        font-size: 30px;
+    }
+
+}

@@ -1,0 +1,83 @@
+.header {
+    // position: sticky;
+    position: relative; //заменить на sticky
+
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+    min-height: 170px;
+    flex-basis: auto;   
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    max-width: 1920px;
+}
+
+.header-background {
+    position: absolute;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/header/headerWave.svg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.visible {
+    display: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+
+    .header {
+        min-height: 100px;
+        justify-content: space-between;
+    }
+
+    .header-background {
+        background: linear-gradient(269.78deg, #F9A425 1.82%, #F9E74B 79.53%); 
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+        top: 0;
+        height: 90px;
+        width: 100%;
+        z-index: -1;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+
+    .header {
+        min-height: 50px;
+    }
+
+    .header-background {
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 688px) {
+
+    .header {
+        position: sticky;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .header {
+        min-height: 60px;
+    }
+   
+}
+
