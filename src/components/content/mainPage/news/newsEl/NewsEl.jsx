@@ -8,6 +8,14 @@ import './newsEl.scss';
 export default function NewsEl(props) {
 
     const { tag, title, text, img } = props.newsEl;
+    let listItems = text
+
+    if (typeof(text) != 'string') {
+        listItems = text.map((item) =>
+            <p>{item}</p>
+        );
+    }
+
 
     return (
         <>
@@ -16,7 +24,7 @@ export default function NewsEl(props) {
                 <div className="n-tag">{tag}</div>
                 <div className="n-car-el-content">
                     <h1>{title}</h1>
-                    <p>{text}</p>
+                    <p>{listItems}</p>
                 </div>
                 <img className="n-logo" src={img} alt=""/>
             </Item>
