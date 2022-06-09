@@ -1,9 +1,9 @@
-.zasipkinaOksana {
+.ekaterinaKashinceva {
     max-width: 1920px;
     margin: 0 auto;
 }
 
-.zasipkinaOksana-website-position-nav {
+.ekaterinaKashinceva-website-position-nav {
     display: flex;
     align-items: center;
     margin: 0 12%;
@@ -26,7 +26,7 @@
     }
 }
 
-.zasipkinaOksana-content {
+.ekaterinaKashinceva-content {
     display: flex;
     justify-content: center;
     margin: 30px 9%;
@@ -40,7 +40,7 @@
     -o-border-radius: 10px;
 }
 
-.zasipkinaOksana-info {
+.ekaterinaKashinceva-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -79,8 +79,8 @@
     
 }
 
-.zasipkinaOksana-img {
-    width: 100%;
+.ekaterinaKashinceva-img {
+    width: 30%;
     height: 100%;
     overflow: hidden;
     & img {
@@ -91,15 +91,19 @@
 
 @media screen and (max-width: 1500px) {
 
-    .zasipkinaOksana {
+    .ekaterinaKashinceva {
         margin-top: 30px;
+    }
+
+    .ekaterinaKashinceva-img {
+        width: 40%;
     }
     
 }
 
 @media screen and (max-width: 1440px) {
 
-    .zasipkinaOksana-website-position-nav {
+    .ekaterinaKashinceva-website-position-nav {
         & a {
             font-size: 16px;
         }
@@ -108,7 +112,7 @@
         }
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         max-width: 50%;
         & h1 {
             font-size: 29px;
@@ -127,15 +131,15 @@
 
 @media screen and (max-width: 1200px) {
 
-    .zasipkinaOksana-website-position-nav {
+    .ekaterinaKashinceva-website-position-nav {
         margin: 0 9%;
     }
 
-    .zasipkinaOksana-content {
+    .ekaterinaKashinceva-content {
         margin: 30px 6%;
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         & h1 {
             font-size: 27px;
             margin-bottom: 30px;
@@ -154,15 +158,15 @@
 
 @media screen and (max-width: 1000px) {
 
-    .zasipkinaOksana-website-position-nav {
+    .ekaterinaKashinceva-website-position-nav {
         margin: 0 6%;
     }
 
-    .zasipkinaOksana-content {
+    .ekaterinaKashinceva-content {
         margin: 30px 3%;
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         & h1 {
             font-size: 23px;
             margin-bottom: 30px;
@@ -182,11 +186,11 @@
 
 @media screen and (max-width: 900px) {
 
-    .zasipkinaOksana-content {
+    .ekaterinaKashinceva-content {
         padding: 20px 3%;
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         & h1 {
             font-size: 20px;
             margin-bottom: 20px;
@@ -206,16 +210,16 @@
 
 @media screen and (max-width: 850px) {
 
-    .zasipkinaOksana-website-position-nav {
+    .ekaterinaKashinceva-website-position-nav {
         margin: 0 12%;
     }
 
-    .zasipkinaOksana-content {
+    .ekaterinaKashinceva-content {
         flex-direction: column;
         margin: 30px 5%;
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         align-self: center;
         margin: 20px 0 0 0;
         max-width: 90%;
@@ -234,7 +238,7 @@
         }
     }
 
-    .zasipkinaOksana-img {
+    .ekaterinaKashinceva-img {
         order: -1;
         width: 90%;
         align-self: center;
@@ -248,7 +252,7 @@
 
 @media screen and (max-width: 450px) {
 
-    .zasipkinaOksana-website-position-nav {
+    .ekaterinaKashinceva-website-position-nav {
         margin: 0 11%;
         & p {
             margin: 0 5px;
@@ -261,11 +265,11 @@
         }
     }
 
-    .zasipkinaOksana-content {
+    .ekaterinaKashinceva-content {
         margin: 30px 4%;
     }
 
-    .zasipkinaOksana-info {
+    .ekaterinaKashinceva-info {
         & h1 {
             font-size: 20px;
             margin-bottom: 25px;

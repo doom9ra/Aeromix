@@ -1,9 +1,9 @@
-.levinaAlexandra {
+.tatianaAnohina {
     max-width: 1920px;
     margin: 0 auto;
 }
 
-.levinaAlexandra-website-position-nav {
+.tatianaAnohina-website-position-nav {
     display: flex;
     align-items: center;
     margin: 0 12%;
@@ -26,7 +26,7 @@
     }
 }
 
-.levinaAlexandra-content {
+.tatianaAnohina-content {
     display: flex;
     justify-content: center;
     margin: 30px 9%;
@@ -40,7 +40,7 @@
     -o-border-radius: 10px;
 }
 
-.levinaAlexandra-info {
+.tatianaAnohina-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -79,8 +79,8 @@
     
 }
 
-.levinaAlexandra-img {
-    width: 30%;
+.tatianaAnohina-img {
+    width: 40%;
     height: 100%;
     overflow: hidden;
     & img {
@@ -91,19 +91,19 @@
 
 @media screen and (max-width: 1500px) {
 
-    .levinaAlexandra {
+    .tatianaAnohina {
         margin-top: 30px;
     }
 
-    .levinaAlexandra-img {
-        width: 40%;
+    .tatianaAnohina-img {
+        width: 50%;
     }
     
 }
 
 @media screen and (max-width: 1440px) {
 
-    .levinaAlexandra-website-position-nav {
+    .tatianaAnohina-website-position-nav {
         & a {
             font-size: 16px;
         }
@@ -112,7 +112,7 @@
         }
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         max-width: 50%;
         & h1 {
             font-size: 29px;
@@ -131,15 +131,15 @@
 
 @media screen and (max-width: 1200px) {
 
-    .levinaAlexandra-website-position-nav {
+    .tatianaAnohina-website-position-nav {
         margin: 0 9%;
     }
 
-    .levinaAlexandra-content {
+    .tatianaAnohina-content {
         margin: 30px 6%;
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         & h1 {
             font-size: 27px;
             margin-bottom: 30px;
@@ -158,15 +158,15 @@
 
 @media screen and (max-width: 1000px) {
 
-    .levinaAlexandra-website-position-nav {
+    .tatianaAnohina-website-position-nav {
         margin: 0 6%;
     }
 
-    .levinaAlexandra-content {
+    .tatianaAnohina-content {
         margin: 30px 3%;
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         & h1 {
             font-size: 23px;
             margin-bottom: 30px;
@@ -186,11 +186,11 @@
 
 @media screen and (max-width: 900px) {
 
-    .levinaAlexandra-content {
+    .tatianaAnohina-content {
         padding: 20px 3%;
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         & h1 {
             font-size: 20px;
             margin-bottom: 20px;
@@ -210,16 +210,16 @@
 
 @media screen and (max-width: 850px) {
 
-    .levinaAlexandra-website-position-nav {
+    .tatianaAnohina-website-position-nav {
         margin: 0 12%;
     }
 
-    .levinaAlexandra-content {
+    .tatianaAnohina-content {
         flex-direction: column;
         margin: 30px 5%;
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         align-self: center;
         margin: 20px 0 0 0;
         max-width: 90%;
@@ -238,7 +238,7 @@
         }
     }
 
-    .levinaAlexandra-img {
+    .tatianaAnohina-img {
         order: -1;
         width: 90%;
         align-self: center;
@@ -252,7 +252,7 @@
 
 @media screen and (max-width: 450px) {
 
-    .levinaAlexandra-website-position-nav {
+    .tatianaAnohina-website-position-nav {
         margin: 0 11%;
         & p {
             margin: 0 5px;
@@ -265,11 +265,11 @@
         }
     }
 
-    .levinaAlexandra-content {
+    .tatianaAnohina-content {
         margin: 30px 4%;
     }
 
-    .levinaAlexandra-info {
+    .tatianaAnohina-info {
         & h1 {
             font-size: 20px;
             margin-bottom: 25px;
