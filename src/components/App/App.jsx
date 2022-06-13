@@ -22,7 +22,10 @@ import TreinersPage from '@treiners/TreinersPage.jsx'
 
 // components (services-pages-adults)
 import Silovaja from '@components/content/services/silovaja/Silovaja.jsx'
+import WetTops from '@components/content/services/wetTops/WetTops.jsx'
+import FitnessJoga from '@components/content/services/fitnessJoga/FitnessJoga.jsx'
 import Stretching from '@components/content/services/stretching/Stretching.jsx'
+import ZdorovayaSpina from '@components/content/services/zdorovayaSpina/ZdorovayaSpina.jsx'
 import Pilates from '@components/content/services/pilates/Pilates.jsx'
 import Joga from '@components/content/services/joga/Joga.jsx'
 import Bachata from '@components/content/services/bachata/Bachata.jsx'
@@ -79,6 +82,9 @@ export default function App() {
                             <Route exact path='/pricetable' component={PriceTable}/>
                             <Route exact path='/treiners/:name' component={TreinersPage}/> 
                             <Route exact path='/services/adults/silovaja' component={Silovaja}/>
+                            <Route exact path='/services/adults/wetTops' component={WetTops}/>
+                            <Route exact path='/services/adults/fitnessJoga' component={FitnessJoga}/>
+                            <Route exact path='/services/adults/zdorovayaSpina' component={ZdorovayaSpina}/>
                             <Route exact path='/services/adults/stretching' component={Stretching}/>
                             <Route exact path='/services/adults/pilates' component={Pilates}/>
                             <Route exact path='/services/adults/joga' component={Joga}/>

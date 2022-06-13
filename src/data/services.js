@@ -13,7 +13,7 @@
 // <mark> подставляедся как уникальный класс для элемента, пример:
 // mark: `aerobika` - className=`service service-aerobika`
 // mark: `gimnastika` - className=`service service-gimnastika`
-// это может понадобиться для кастомизации отдельного элемента, но старйся избегать таких моментов
+// это может понадобиться для кастомизации отдельного элемента, но старайся избегать таких моментов
 
 // При добавлении картинки, обязательно импортируй ее сюда, и укажи в <background>
 // img
@@ -22,18 +22,21 @@ import aerobika from '@img/mainPage/services/children/aerobika.jpg'
 import gimnastika from '@img/mainPage/services/children/gimnastika.jpg'
 import ofp from '@img/mainPage/services/children/OFP.jpg'
 // import jazfunk from '@img/mainPage/services/children/jazfunk.jpg' // убрали из услуг
-import dancehallChildren from '@img/mainPage/services/children/dancehall.jpg'
+// import dancehallChildren from '@img/mainPage/services/children/dancehall.jpg'
 
 // adults
 import stretching from '@img/mainPage/services/adults/stretching.jpg'
 import silovaja from '@img/mainPage/services/adults/silovaja.jpg'
 import pilates from '@img/mainPage/services/adults/pilates.jpg'
-import joga from '@img/mainPage/services/adults/joga.jpg'
+// import joga from '@img/mainPage/services/adults/joga.jpg'
 import tennis from '@img/mainPage/services/adults/tennis.jpg'
-import bachata from '@img/mainPage/services/adults/bachata.jpg'
+// import bachata from '@img/mainPage/services/adults/bachata.jpg'
 import zumba from '@img/mainPage/services/adults/zumba.jpg'
-import dancehallAdults from '@img/mainPage/services/adults/dancehall.jpg'
+// import dancehallAdults from '@img/mainPage/services/adults/dancehall.jpg'
 import taeBo from '@img/mainPage/services/adults/taeBo.jpg'
+import wetTops from '@img/mainPage/services/adults/wetTops.jpg'
+import fitnessJoga from '@img/mainPage/services/adults/fitnessJoga.jpg'
+import zdorovayaSpina from '@img/mainPage/services/adults/zdorovayaSpina.jpg'
 
 
 const servicesList = {
@@ -62,7 +65,7 @@ const servicesList = {
         },
         {
             id: 3,
-            title: `Общефизическая подготовка`,
+            title: `Общая физическая подготовка`,
             text: `ОФП включает несложные, но эффективные упражнения на 
                     развитие координации, баланса, силы, гибкости и 
                     ловкости.`,
@@ -80,15 +83,15 @@ const servicesList = {
         //     href: `/services/children/juzzfunk#top`,
         //     mark: `jazfunk`,
         // },
-        {
-            id: 5,
-            title: `Дэнсхолл`,
-            text: `Динамичный танец, который показывает свободу и 
-                    раскрепощённость любого, кто его исполняет.`,
-            background: dancehallChildren,
-            href: `/services/all/dancehall#top`,
-            mark: `dancehallChildren`,
-        },
+        // {
+        //     id: 5,
+        //     title: `Дэнсхолл`,
+        //     text: `Динамичный танец, который показывает свободу и 
+        //             раскрепощённость любого, кто его исполняет.`,
+        //     background: dancehallChildren,
+        //     href: `/services/all/dancehall#top`,
+        //     mark: `dancehallChildren`,
+        // },
     ],
 
 
@@ -104,7 +107,7 @@ const servicesList = {
         },
         {
             id: 2,
-            title: `Силовая тренировка`,
+            title: `Силовые тренировки`,
             text: `Комплексное занятие, направленное на развитие 
                     различных групп мышц.`,
             background: silovaja,
@@ -121,17 +124,17 @@ const servicesList = {
             href: `/services/adults/pilates#top`,
             mark: `pilates`,
         },
-        {
-            id: 4,
-            title: `Йога Айенгара`,
-            text: `Наш малоподвижный образ жизни не способствует поддержанию 
-                    хорошей физической формы, делая тело зажатым и слабым. 
-                    Регулярные занятия йогой Айенгара обеспечивают 
-                    практикующим улучшение здоровья и внешности.`,
-            background: joga,
-            href: `/services/adults/joga#top`,
-            mark: `joga`,
-        },
+        // {
+        //     id: 4,
+        //     title: `Йога Айенгара`,
+        //     text: `Наш малоподвижный образ жизни не способствует поддержанию 
+        //             хорошей физической формы, делая тело зажатым и слабым. 
+        //             Регулярные занятия йогой Айенгара обеспечивают 
+        //             практикующим улучшение здоровья и внешности.`,
+        //     background: joga,
+        //     href: `/services/adults/joga#top`,
+        //     mark: `joga`,
+        // },
         {
             id: 5,
             title: `Настольный теннис`,
@@ -142,16 +145,16 @@ const servicesList = {
             href: `/services/adults/tableTennis#top`,
             mark: `tennis`,
         },
-        {
-            id: 6,
-            title: `Бачата`,
-            text: `Один из самых простых по хореографии латиноамериканский танец. 
-                    Главная особенность стиля — чувственный романтизм, пластика, 
-                    гармония и импровизация!`,
-            background: bachata,
-            href: `/services/adults/bachata#top`,
-            mark: `bachata`,
-        },
+        // {
+        //     id: 6,
+        //     title: `Бачата`,
+        //     text: `Один из самых простых по хореографии латиноамериканский танец. 
+        //             Главная особенность стиля — чувственный романтизм, пластика, 
+        //             гармония и импровизация!`,
+        //     background: bachata,
+        //     href: `/services/adults/bachata#top`,
+        //     mark: `bachata`,
+        // },
         {
             id: 7,
             title: `Зумба`,
@@ -162,24 +165,50 @@ const servicesList = {
             href: `/services/adults/zumba#top`,
             mark: `zumba`,
         },
-        {
-            id: 8,
-            title: `Дэнсхолл`,
-            text: `Динамичный танец, который показывает свободу и 
-                    раскрепощённость любого, кто его исполняет.`,
-            background: dancehallAdults,
-            href: `/services/all/dancehall#top`,
-            mark: `dancehallAdults`,
-        },
+        // {
+        //     id: 8,
+        //     title: `Дэнсхолл`,
+        //     text: `Динамичный танец, который показывает свободу и 
+        //             раскрепощённость любого, кто его исполняет.`,
+        //     background: dancehallAdults,
+        //     href: `/services/all/dancehall#top`,
+        //     mark: `dancehallAdults`,
+        // },
         {
             id: 9,
-            title: `Тай бо (tae bo)`,
+            title: `Body Combat`,
             text: `Разновидность аэробики, в основе которой лежат боевые 
                     элементы тайского бокса, тхэквондо, бокса, каратэ в 
                     совокупности с базовыми шагами аэробики, собранными в связки.`,
             background: taeBo,
             href: `/services/adults/taebo#top`,
             mark: `taeBo`,
+        },
+        {
+            id: 10,
+            title: `Wet Tops`,
+            text: `Танцевальный класс, в нон-стопе, в котором
+                    представлены практические все танцевальные
+                    направления от латины до хип хопа, от контемпа до тверка.`,
+            background: wetTops,
+            href: `/services/adults/wetTops#top`,
+            mark: `wetTops`,
+        },
+        {
+            id: 11,
+            title: `Фитнес -  йога`,
+            text: `Классический урок йоги, основанный на простых асанах, без ментальной работы клиентов.`,
+            background: fitnessJoga,
+            href: `/services/adults/fitnessJoga#top`,
+            mark: `fitnessJoga`,
+        },
+        {
+            id: 12,
+            title: `Здоровая спина`,
+            text: `Урок направлен на укрепление и растяжение мышц спины. Снятия напряжения и улучшения состояния позвоночника.`,
+            background: zdorovayaSpina,
+            href: `/services/adults/zdorovayaSpina#top`,
+            mark: `zdorovayaSpina`,
         },
     ]
 

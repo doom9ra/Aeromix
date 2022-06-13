@@ -23,7 +23,7 @@ export default function TaeBo() {
             <div className="serv-page-adults-taeBo-content">
         
                 <div className="serv-page-adults-taeBo-info">
-                    <h1>Тай бо (tae bo)</h1>
+                    <h1>Body Combat</h1>
                     <p>
                         Тренировка Тай бо (tae bo) – это разновидность аэробики, 
                         в основе которой лежат боевые элементы тайского бокса, тхэквондо, 
