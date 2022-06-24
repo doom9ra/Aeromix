@@ -38,13 +38,14 @@ export default function TimeTableChildren() {
             <table className="time-table-children" cellSpacing="0">
                 <tbody>
                     <tr>
-                        <th align="start">Направление</th>
+                        <th align="start">Группа</th>
                         <th className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">Пн</th>
                         <th className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">Вт</th>
                         <th className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">Ср</th>
                         <th className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">Чт</th>
                         <th className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">Пт</th>
                         <th className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">Сб</th>
+                        <th className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">Вск</th>
                     </tr>
 
                     <tr>
@@ -53,20 +54,18 @@ export default function TimeTableChildren() {
                             <p>2-3 года</p>
                         </td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>11.00 - 11.45</p>
+                            <p>10.30 - 11.15</p>
                             <p>Зал № 2</p>
                         </td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>11.00 - 11.45</p>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>10.30 - 11.15</p>
                             <p>Зал № 2</p>
                         </td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
-                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>10.00 - 10.45</p>
-                            <p>Зал № 1</p>
-                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                     </tr>
 
                     <tr>
@@ -74,36 +73,28 @@ export default function TimeTableChildren() {
                             <h4>Развивающая гимнастика и ОФП</h4>
                             <p>3-4 года</p>
                         </td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>17.00 - 18.00</p>
-                            <p>Зал № 1</p>
-                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
                             <p>18.00 - 19.00</p>
                             <p>Зал № 2</p>
                         </td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>17.00 - 18.00</p>
-                            <p>Зал № 1</p>
-                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
                             <p>18.00 - 19.00</p>
                             <p>Зал № 1</p>
                         </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>17.00 - 18.00</p>
-                            <p>Зал № 2</p>
-                        </td>
-                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>11.00 - 12.00</p>
+                            <p>12.00 - 13.00</p>
                             <p>Зал № 1</p>
                         </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                     </tr>
 
                     <tr>
                         <td align="start">
                             <h4>Спортивная аэробика</h4>
-                            <p>УТГ -1, 5 – 7 лет</p>
+                            <p>УТГ -2, 5 – 7 лет</p>
                             <p>(тренер Жанна)</p>
                         </td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
@@ -128,6 +119,11 @@ export default function TimeTableChildren() {
                             <p>18.00 – 20.00</p>
                             <p>Гимнастика</p>
                             <p>Акробатика</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>10.00 – 12.00</p>
+                            <p>Программы</p>
                             <p>Зал № 1</p>
                         </td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
@@ -163,46 +159,61 @@ export default function TimeTableChildren() {
                             <p>Акробатика</p>
                             <p>Зал № 1</p>
                         </td>
-                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Спортивная аэробика. Начальная подготовка</h4>
-                            <p>5 – 7 лет</p>
-                            <p>(тренер Катя)</p>
-                        </td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>18.00 – 19.00</p>
-                            <p>Зал № 1</p>
-                        </td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
-                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>18.00 – 19.00</p>
-                            <p>Зал № 1</p>
-                        </td>
-                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>18.00 – 19.00</p>
-                            <p>Зал № 2</p>
+                            <p>10.00 – 12.00</p>
+                            <p>Программы</p>
+                            <p>Зал № 1</p>
                         </td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                     </tr>
 
                     <tr>
                         <td align="start">
-                            <h4>Спортивная аэробика. Начальная подготовка</h4>
-                            <p>8 – 11 лет</p>
-                            <p>(тренер Оксана)</p>
+                            <h4>Фитнес – аэробика</h4>
+                            <p>8 – 10 лет</p>
+                            <p>(тренер Карина)</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>16.00 - 18.00</p>
+                            <p>Зал № 3</p>
                         </td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>16.00 – 17.30</p>
-                            <p>Зал № 2</p>
+                            <p>16.00 - 18.00</p>
+                            <p>Зал № 3 и 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>16.00 - 18.00</p>
+                            <p>Зал № 3 и 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>13.00 – 15.00</p>
+                            <p>Программы</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                    </tr>
+
+
+                    <tr>
+                        <td align="start">
+                            <h4>ОФП</h4>
+                            <p>5 - 7 лет</p>
+                            <p>(тренер Карина)</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>18.00 - 19.00</p>
+                            <p>Зал № 3</p>
                         </td>
                         <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>18.00 - 19.00</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
-                            <p>16.00 – 17.30</p>
+                            <p>18.00 - 19.00</p>
                             <p>Зал № 2</p>
                         </td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
@@ -236,6 +247,70 @@ export default function TimeTableChildren() {
                         </td>
                         <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
                             <p>10.00 – 13.00</p>
+                            <p>Зал № 3</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                    </tr>
+
+                    <tr>
+                        <td align="start">
+                            <h4>ОФП</h4>
+                            <p>10 – 12 лет</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>16.00 - 17.30</p>
+                            <p>Зал № 2</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>16.00 - 17.30</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                    </tr>
+
+                    <tr>
+                        <td align="start">
+                            <h4>Акробатика</h4>
+                            <p>8 – 10 лет и 5 – 7 лет</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>15.00 - 16.00</p>
+                            <p>16.00 - 17.00</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>15.00 - 16.00</p>
+                            <p>16.00 - 17.00</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                    </tr>
+
+                    <tr>
+                        <td align="start">
+                            <h4>Диско Дэнс</h4>
+                            <p>6 – 10 лет</p>
+                            <p>(тренер Таня)</p>
+                        </td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'end' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">-</td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>19.00 - 20.00</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableChildren === 'start' ? 'time-table-children-hidden' : ''} align="center">
+                            <p>12.00 - 13.00</p>
                             <p>Зал № 3</p>
                         </td>
                     </tr>

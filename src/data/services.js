@@ -21,6 +21,8 @@
 import aerobika from '@img/mainPage/services/children/aerobika.jpg'
 import gimnastika from '@img/mainPage/services/children/gimnastika.jpg'
 import ofp from '@img/mainPage/services/children/OFP.jpg'
+import discoDance from '@img/mainPage/services/children/discoDance.jpg'
+import fintessAerobics from '@img/mainPage/services/children/fintessAerobics.jpg'
 // import jazfunk from '@img/mainPage/services/children/jazfunk.jpg' // убрали из услуг
 // import dancehallChildren from '@img/mainPage/services/children/dancehall.jpg'
 
@@ -72,6 +74,24 @@ const servicesList = {
             background: ofp,
             href: `/services/children/ofp#top`,
             mark: `ofp`,
+        },
+        {
+            id: 4,
+            title: `Диско Дэнс`,
+            text: `Направление современных спортивных танцев,
+                    включающее в себя элементы различных танцевальных
+                    современных стилей и спортивной гимнастики.`,
+            background: discoDance,
+            href: `/services/children/discoDance#top`,
+            mark: `discoDance`,
+        },
+       {
+            id: 4,
+            title: `Фитнес – аэробика`,
+            text: `Вид спорта, официально зарегистрированный во Всероссийском Реестре Видов Спорта (ВРВС).`,
+            background: fintessAerobics,
+            href: `/services/children/fintessAerobics#top`,
+            mark: `fintessAerobics`,
         },
         // {
         //     id: 4,

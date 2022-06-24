@@ -16,19 +16,30 @@ export default function PriceTableChildren() {
                             Разовое занятие
                         </th>
                         <th className='firstThree'align="center">
-                            Абонемент на 8 занятий (2 раза в неделю)
+                            Развивающая гимнастика для детей (2 – 3 года)
+                            Абонемент на 1 месяц (1 раз в неделю)
                         </th>
                         <th className='firstThree'align="center">
-                            Абонемент на 12 занятий (3 раза в неделю)
+                            Развивающая гимнастика для детей (2 – 3 года)
+                            Абонемент на 1 месяц (2 раза в неделю) 
+                        </th>
+                        <th className='firstThree'align="center">
+                            Абонемент на 1 месяц (1 раз в неделю) 
+                        </th>
+                        <th className='firstThree'align="center">
+                            Абонемент на 1 месяц (2 раза в неделю)
                         </th>
                         <th className='thecondThree'align="center">
-                            Абонемент на 20 занятий (4 - 5 занятий в неделю)
+                            Абонемент на 1 месяц (3 раза в неделю)
+                        </th>
+                        <th className='thecondThree'align="center">
+                            Абонемент на 1 месяц (4 – 5 раз в неделю)
+                        </th>
+                        <th className='thecondThree'align="center">
+                            Сборная команда (6 раз в неделю)
                         </th>
                         <th className='thecondThree'align="center">
                             Персональная тренировка
-                        </th>
-                        <th className='thecondThree'align="center">
-                            Сборная команда
                         </th>
                     </tr>
 
@@ -38,10 +49,16 @@ export default function PriceTableChildren() {
                             <p>(кроме: Джаз-Фанк, Индивидуальная тренировка)</p>
                         </td> */}
                         <td className='firstThree'align="center">
-                            <p>650 руб</p>
+                            <p>850 руб</p>
+                        </td>
+                        <td className='firstThree'align="center">
+                            <p>2500 руб</p>
                         </td>
                         <td className='firstThree'align="center">
                             <p>4000 руб</p>
+                        </td>
+                        <td className='firstThree'align="center">
+                            <p>2600 руб</p>
                         </td>
                         <td className='firstThree'align="center">
                             <p>5000 руб</p>
@@ -50,10 +67,13 @@ export default function PriceTableChildren() {
                             <p>5500 руб</p>
                         </td>
                         <td className='thecondThree'align="center">
-                            <p>1500 руб</p>
+                            <p>6000 руб</p>
                         </td>
                         <td className='thecondThree'align="center">
-                            <p>6000 руб</p>
+                            <p>6500 руб</p>
+                        </td>
+                        <td className='thecondThree'align="center">
+                            <p>2000 руб</p>
                         </td>
                     </tr>
 

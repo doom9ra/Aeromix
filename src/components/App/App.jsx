@@ -35,6 +35,8 @@ import TaeBo from '@components/content/services/taeBo/TaeBo.jsx'
 // components (services-pages-children)
 import Aerobika from '@components/content/services/aerobika/Aerobika.jsx'
 import Ofp from '@components/content/services/OFP/Ofp.jsx'
+import DiscoDance from '@components/content/services/discoDance/DiscoDance.jsx'
+import FintessAerobics from '@components/content/services/fintessAerobics/FintessAerobics.jsx'
 import Gimnastika from '@components/content/services/gimnastika/Gimnastika.jsx'
 // import JuzzFunk from '@components/content/services/juzzFunk/JuzzFunk.jsx' // убрали напраление
 import TableTennis from '@components/content/services/tableTennis/TableTennis.jsx'
@@ -94,6 +96,8 @@ export default function App() {
                             <Route exact path='/services/adults/taebo' component={TaeBo}/>
                             <Route exact path='/services/children/aerobika' component={Aerobika}/>
                             <Route exact path='/services/children/ofp' component={Ofp}/>
+                            <Route exact path='/services/children/discoDance' component={DiscoDance}/>
+                            <Route exact path='/services/children/fintessAerobics' component={FintessAerobics}/>
                             <Route exact path='/services/children/gimnastika' component={Gimnastika}/>
                             {/* <Route exact path='/services/children/juzzfunk' component={JuzzFunk}/> */}
                             <Route exact path='/services/adults/tableTennis' component={TableTennis}/>

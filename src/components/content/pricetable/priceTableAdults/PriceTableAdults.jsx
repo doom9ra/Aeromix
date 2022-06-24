@@ -75,63 +75,55 @@ export default function PriceTableAdults() {
                         <th 
                             className={priceTableAdults === 'onceAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            Абонемент на 4 занятия (1 раз в неделю)
+                            Абонемент на 1 месяц (1 раз в неделю)
                         </th>
                         <th 
                             className={priceTableAdults === 'twoTimesAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            Абонемент на 8 занятий (2 раза в неделю)
+                            Абонемент на 1 месяц (2 раза в неделю)
                         </th>
                         <th 
                             className={priceTableAdults === 'threeTimesAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            Абонемент на 12 занятий (3 раза в неделю)
+                            Абонемент на 1 месяц (3 раза в неделю)
                         </th>
                         <th 
                             className={priceTableAdults === 'unlimited' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            Абонемент «Безлимит» (неограниченное количество занятий в месяц)
+                            Абонемент «Безлимит»*
                         </th>
                     </tr>
 
                     <tr>
                         <td align="start">
                             <h4>
-                                Силовая тренировка<br/>
-                                Пилатес<br/>
-                                Стретчинг<br/>
-                                Зумба<br/>
-                                Бачата<br/>
-                                Дэнсхолл<br/>
-                                Тай бо<br/>
-                                Lady Dance<br/>
-                                Йога
+                                Все виды тренировок, имеющиеся в расписании
                             </h4>
                         </td>
                         <td 
                             className={priceTableAdults === 'onceTreining' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>650 руб</p>
+                            <p>850 руб</p>
                         </td>
                         <td 
                             className={priceTableAdults === 'onceAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>1600 руб</p>
+                            <p>2500 руб</p>
                         </td>
                         <td 
                             className={priceTableAdults === 'twoTimesAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>3000 руб</p>
+                            <p>3800 руб</p>
                         </td>
                         <td 
                             className={priceTableAdults === 'threeTimesAWeek' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>4000 руб</p>
+                            <p>4500 руб</p>
                         </td>
                         <td 
                             className={priceTableAdults === 'unlimited' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>5000 руб</p>
+                            <p>5500 руб</p>
                         </td>
                     </tr>
 
@@ -142,7 +134,7 @@ export default function PriceTableAdults() {
                         <td 
                             className={priceTableAdults === 'onceTreining' ? '' : 'price-table-adults-hidden'} 
                             align="center">
-                            <p>2000 руб</p>
+                            <p>3000 руб</p>
                         </td>
                         <td 
                             className={priceTableAdults === 'onceAWeek' ? '' : 'price-table-adults-hidden'} 

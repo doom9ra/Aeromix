@@ -38,7 +38,7 @@ export default function TimeTableAdults() {
             <table className="time-table-adults" cellSpacing="0">
                 <tbody>
                     <tr>
-                        <th align="start">Направление</th>
+                        <th align="start">Время занятия</th>
                         <th className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">Пн</th>
                         <th className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">Вт</th>
                         <th className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">Ср</th>
@@ -49,56 +49,35 @@ export default function TimeTableAdults() {
 
                     <tr>
                         <td align="start">
-                            <h4>Пилатес</h4>
-                            <p>Тренер Жанна</p>
+                            <h4>9.00 – 10.00</h4>
                         </td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>09.00</p>
+                            <p>ПИЛАТЕС (Жанна)</p>
                             <p>Зал № 2</p>
                         </td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>09.00</p>
+                            <p>ПИЛАТЕС (Жанна)</p>
                             <p>Зал № 2</p>
                         </td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>12.00</p>
-                            <p>Зал № 2</p>
-                        </td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                     </tr>
 
                     <tr>
                         <td align="start">
-                            <h4>Силовая тренировка</h4>
-                            <p>Тренер Виктория</p>
+                            <h4>10.00 – 11.00</h4>
                         </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>20.00</p>
-                            <p>Зал № 2</p>
-                        </td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>11.00</p>
-                            <p>Зал № 2</p>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Тай бо</h4>
-                            <p>Тренер Виктория</p>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>ЗУМБА (Кристина)</p>
+                            <p>Зал № 3</p>
                         </td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>20.00</p>
-                            <p>Зал № 2</p>
+                            <p>ЗУМБА (Кристина)</p>
+                            <p>Зал № 3</p>
                         </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
@@ -106,52 +85,52 @@ export default function TimeTableAdults() {
 
                     <tr>
                         <td align="start">
-                            <h4>Зумба</h4>
-                            <p>Тренер Кристина</p>
+                            <h4>11.00 – 12.00</h4>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>ABL (Виктория)</p>
+                            <p>Зал № 2</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="start">
+                            <h4>12.00 – 13.00</h4>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>ПИЛАТЕС (Жанна)</p>
+                            <p>Зал № 2</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="start">
+                            <h4>19.00 – 20.00</h4>
                         </td>
                         <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>10.00</p>
+                            <p>ABC WORKOUT (Анна)</p>
+                            <p>Зал № 3</p>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>WET TOPS (Анна)</p>
+                            <p>Зал № 2</p>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>АКРОБАТИКА для взрослых (Михаил)</p>
                             <p>Зал № 1</p>
                         </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>10.00</p>
-                            <p>Strong by Zumba</p>
-                        </td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>19.30</p>
-                            <p>Зал № 1</p>
-                        </td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Стретчинг</h4>
-                            <p>Тренер Жанна</p>
-                        </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>20.00</p>
-                            <p>Зал № 2</p>
-                        </td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Бачата</h4>
-                            <p>Тренер Лидия</p>
-                        </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>20.00</p>
+                            <p>POWER HEAT (Анна)</p>
                             <p>Зал № 1</p>
                         </td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
@@ -160,51 +139,34 @@ export default function TimeTableAdults() {
 
                     <tr>
                         <td align="start">
-                            <h4>Дэнсхолл</h4>
-                            <p>Тренер Лидия</p>
+                            <h4>20.00 – 21.00</h4>
                         </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>ФИТНЕС – ЙОГА (Анна)</p>
+                            <p>Зал № 1</p>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>СТРЕТЧИНГ (Жанна)</p>
+                            <p>Зал № 2</p>
+                        </td>
+                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>BODY COMBAT (Виктория)</p>
+                            <p>Зал № 2</p>
+                        </td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>13.00</p>
+                            <p>Функциональный тренинг (Виктория)</p>
+                            <p>Зал № 2</p>
+                            <br/>
+                            <p>ФИТНЕС – ЙОГА (Анна)</p>
                             <p>Зал № 1</p>
                         </td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Шейпинг/Суставная гимнастика</h4>
-                            <p>Тренер Марина</p>
-                        </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>19.00</p>
+                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">
+                            <p>ЗУМБА (Кристина)</p>
                             <p>Зал № 1</p>
+                            <br/>
+                            <p>ЗДОРОВАЯ СПИНА (Анна)</p>
+                            <p>Зал № 2</p>
                         </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>19.00</p>
-                            <p>Зал № 1</p>
-                        </td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                    </tr>
-
-                    <tr>
-                        <td align="start">
-                            <h4>Lady Dance</h4>
-                            <p>Тренер Лидия</p>
-                        </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">
-                            <p>20.00</p>
-                        </td>
-                        <td className={timeTableAdults === 'end' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
-                        <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                         <td className={timeTableAdults === 'start' ? 'time-table-adults-hidden' : ''} align="center">-</td>
                     </tr>
 
